@@ -1,0 +1,65 @@
+# =============================================
+# Python .gitignore for AI/ML Projects
+# =============================================
+
+# ----- Python -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+
+# ----- Virtual Environments -----
+venv/
+env/
+.env
+.conda/
+
+# ----- Jupyter Notebooks -----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ----- Data Files (large datasets) -----
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.parquet
+data/*.h5
+data/*.zip
+data/*.tar.gz
+!data/.gitkeep
+!data/README.md
+
+# ----- Model Files (large) -----
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.onnx
+!models/.gitkeep
+
+# ----- IDE -----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ----- OS -----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----- Docker -----
+.dockerignore
+
+# ----- Misc -----
+*.log
+*.tmp
+.cache/
