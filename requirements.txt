@@ -26,5 +26,8 @@ joblib>=1.4.0
 # Technical indicators (bonus)
 ta>=0.11.0
 
+# Statistical analysis
+scipy>=1.13.0
+
 # Docker support
 gunicorn>=23.0.0
