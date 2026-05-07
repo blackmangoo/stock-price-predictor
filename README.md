@@ -82,6 +82,16 @@ stock-price-predictor/
 3. **SMA_7 and daily_return** are the next most important features, capturing short-term momentum
 4. **RSI** contributes meaningful signal about overbought/oversold conditions
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="assets/ss1.png" width="45%" />
+  <img src="assets/ss2.png" width="45%" />
+  <img src="assets/ss3.png" width="45%" />
+  <img src="assets/ss4.png" width="45%" />
+  <img src="assets/ss5.png" width="45%" />
+</p>
+
 ## 🚀 Quick Start
 
 ### Local Setup
